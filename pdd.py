@@ -10,17 +10,27 @@ import re
 def main():
 
     cwd = os.getcwd()
-    writeLine = "alias ppd=\"{cwd}\""
-    searchLine = re.compile("alias ppd")
+    lineToWrite = f"alias pdd=\"cd {cwd}\"" + "\n\n"
+    searchString = lineToWrite[0:11]
 
     home = os.path.expanduser('~')
     bash_aliases = os.path.abspath(f"{home}/.bash_aliases")
-    
-    with open(bash_aliases, "a+") as aliases:
+
+    with open(bash_aliases, 'r+') as aliases, open(f"{home}/.bash_aliases_copy", 'w') as copy:
         lines = aliases.readlines()
-        for line in lines:
-            if searchLine.match(line):
-                
+        copy.writelines(lines)
+
+        matchFound = False
+        for loc, line in enumerate(lines):
+            if line[0:(len(searchString))] == searchString:
+                lines.pop(loc)
+                lines.append(lineToWrite)
+                matchFound = True
+        if not matchFound:
+            lines.append(lineToWrite)
+
+        aliases.seek(0)
+        aliases.writelines(lines)
 
 
 if __name__ == "__main__":
