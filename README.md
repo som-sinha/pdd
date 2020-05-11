@@ -25,3 +25,8 @@ fi
 ### Updates:
 #### First version:
 As I wrote this in a day's time, I wasn't able to focus on the readability. Currently the code is basically unreadable unless you are me! if so, I need to meet you ASAP. I would like to repeat, this is most probably useless to anyone and I wrote this just to get more comfortable programming. You can call this my first independent project.
+
+### TODO
+1. Add Comments
+2. Break the program into independent functions
+3. Add print()s to notify user as to what is happening
