@@ -3,7 +3,7 @@ present development directory
 I know this is probably stupid but I wanted to make something in python myself so I did it. It works tho, so that must be a good thing.
 
 ### Installation:
-
+**Note: I have tested this on Linux only(Ubuntu 20.04 Foccal Fossa). However it should run on any unix-like system that uses bash/zsh**
 1. Clone the files.
 2. Using python3 from your terminal run pdd.py from its directory.
    
