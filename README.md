@@ -8,6 +8,7 @@ I know this is probably stupid but I wanted to make something in python myself s
 2. Using python3 from your terminal run pdd.py from its directory.
    
    `python3 /PATH/TO/pdd.py`
+3. You only need to do this once!
 
 ### Usage:
 **Note: if using zsh, put this into your .zshrc**
