@@ -1,6 +1,6 @@
 # pdd
 present development directory
-I know this is probably stupid but I wanted to make something in python myself so I did it. It works tho, so that must be a good thing.
+I wanted to make "something" in python to practice I made this. It works tho, so that must be a good thing.
 
 ### Installation:
 **Note: I have tested this on Linux only(Ubuntu 20.04 Foccal Fossa). However it should run on any unix-like system that uses bash/zsh**
@@ -25,7 +25,8 @@ fi
 
 ### Updates:
 #### First version:
-As I wrote this in a day's time, I wasn't able to focus on the readability. Currently the code is basically unreadable unless you are me! if so, I need to meet you ASAP. I would like to repeat, this is most probably useless to anyone and I wrote this just to get more comfortable programming. You can call this my first independent project.
+As I wrote this in a day's time, I wasn't able to focus on the readability. Currently the code is basically unreadable unless you are me!
+I wrote this just to get more comfortable programming. It is just my first independent project.
 
 ### TODO
 1. Add Comments
